@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CPU Scheduling Process</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sjf">SJF</string>
+    <string name="title_activity_fcfs">FCFS</string>
+    <string name="title_activity_first">CPU Scheduling</string>
+    <string name="title_activity_splash">CPU SCHEDULING PROCESS</string>
+    <string name="title_activity_round_robin">Round_robin</string>
+    <string name="title_activity_sjfnon">Sjfnon</string>
+    <string name="title_activity_prioritynon">Prioritynon</string>
+
+</resources>

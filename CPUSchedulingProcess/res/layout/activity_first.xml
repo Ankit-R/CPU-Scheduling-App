@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FIRST" 
+    android:background="#e6e6e6"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical" >
+   <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Choose One Scheduling Process"
+		        android:id="@+id/tt" 
+		        android:layout_gravity="center_horizontal"
+		        android:gravity="center"
+		        android:textStyle="bold"
+		        android:textSize="30sp"
+		        android:textColor="#ff0000"
+		        android:layout_marginBottom="20sp"
+		        android:layout_marginTop="10sp"/>
+   
+    <Button
+	    	 	android:text="  FCFS Scheduling  "
+	    	 	android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/process_fcfs"
+		        android:textColor="#ffffff"
+		        android:background="#0000ff"
+		        android:textSize="25sp"
+		        android:textStyle="bold"
+		        android:layout_marginBottom="20sp"/>
+    
+    <Button
+	    	 	android:text="  SJF Preemptive Scheduling  "
+	    	 	android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/process_sjf"
+		        android:textColor="#ffffff"
+		        android:background="#0000ff"
+		        android:textSize="25sp"
+		        android:textStyle="bold"
+		        android:layout_marginBottom="30sp"/>
+   
+   <Button
+	    	 	android:text="  Priority Preemptive Scheduling  "
+	    	 	android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/process_priority"
+		        android:textColor="#ffffff"
+		        android:background="#0000ff"
+		        android:textSize="25sp"
+		        android:textStyle="bold"
+		        android:layout_marginBottom="30sp"/>
+      
+   <Button
+	    	 	android:text="  Round Robin Scheduling  "
+	    	 	android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/process_rr"
+		        android:textColor="#ffffff"
+		        android:background="#0000ff"
+		        android:textSize="28sp"
+		        android:textStyle="bold"
+		        android:layout_marginBottom="20sp"/>
+   
+   
+   
+   
+   
+   
+</LinearLayout>
+</ScrollView>
